@@ -1,0 +1,23 @@
+.main {
+    background-color: #0079BF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+    min-width: 320px;
+    height: 618px;
+}
+
+@media screen and (max-width: 1234px) {
+    .main {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    .main {
+        justify-content: center;
+    }
+}

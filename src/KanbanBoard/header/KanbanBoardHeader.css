@@ -1,0 +1,9 @@
+.header {
+    position: relative;
+    background-color: #0067A3;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 320px;
+    height: 55px;
+}

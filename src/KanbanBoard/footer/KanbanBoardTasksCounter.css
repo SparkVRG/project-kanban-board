@@ -1,0 +1,20 @@
+.tasks-counter__item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.tasks-counter__item:nth-of-type(n+2) {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 944px) {
+    .tasks-counter__item {
+        font-size: 14px;
+    }
+
+    .tasks-counter__item:nth-of-type(n+2) {
+        margin-left: 30px;
+    }
+}
